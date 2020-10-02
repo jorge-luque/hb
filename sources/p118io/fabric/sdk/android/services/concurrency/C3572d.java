@@ -1,0 +1,11 @@
+package p118io.fabric.sdk.android.services.concurrency;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+@Retention(RetentionPolicy.RUNTIME)
+/* renamed from: io.fabric.sdk.android.services.concurrency.d */
+/* compiled from: DependsOn */
+public @interface C3572d {
+    Class<?>[] value();
+}

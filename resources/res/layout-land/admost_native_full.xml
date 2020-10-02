@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <ImageView android:id="@+id/ad_back" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+    <LinearLayout android:orientation="vertical" android:background="@color/AMRNativeBackground" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="20dp">
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@+id/ad_app_icon" android:layout_width="40dp" android:layout_height="40dp" android:scaleType="fitXY" android:adjustViewBounds="true"/>
+                <LinearLayout android:orientation="vertical" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:textSize="9sp" android:textColor="@color/AMRNativeAdSponsoredColor" android:id="@+id/ad_attribution" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AMR_text_sponsored" android:lines="1"/>
+                    <TextView android:textSize="14sp" android:typeface="normal" android:textStyle="bold" android:textColor="@color/AMRNativeAdTitleColor" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/ad_headline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AMR_text_ad_all_caps" android:lines="1"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/ad_image_back" android:padding="1dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <ImageView android:layout_gravity="center" android:id="@+id/ad_image" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitCenter"/>
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:orientation="horizontal" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/ad_call_to_action" android:layout_alignParentLeft="true">
+                <TextView android:textSize="12sp" android:textColor="@color/AMRNativeAdBodyColor" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/ad_body" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2"/>
+            </LinearLayout>
+            <Button android:id="@+id/ad_call_to_action" android:layout_width="wrap_content" android:layout_height="30dp" android:layout_alignParentRight="true" android:layout_centerInParent="true" style="@style/AMRButton"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@+id/ad_choices" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"/>
+    <ImageButton android:id="@+id/amr_ad_close" android:layout_width="36dp" android:layout_height="36dp" android:src="@drawable/ad_close" android:scaleType="fitXY" style="@style/AMRButtonTransparent"/>
+    <ImageView android:id="@+id/ad_mopub" android:paddingLeft="4dp" android:paddingTop="2dp" android:paddingRight="2dp" android:paddingBottom="4dp" android:visibility="gone" android:layout_width="26dp" android:layout_height="26dp" android:src="@drawable/ad_mopub_daa" android:layout_alignParentRight="true"/>
+</RelativeLayout>

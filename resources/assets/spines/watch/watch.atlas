@@ -1,0 +1,20 @@
+
+watch.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+akrep
+  rotate: false
+  xy: 2, 2
+  size: 22, 12
+  orig: 22, 12
+  offset: 0, 0
+  index: -1
+saat
+  rotate: false
+  xy: 2, 16
+  size: 66, 79
+  orig: 66, 79
+  offset: 0, 0
+  index: -1

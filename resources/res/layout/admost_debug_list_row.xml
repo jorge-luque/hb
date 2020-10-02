@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:padding="4dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="11sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/networkName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AMR_text_network" android:layout_alignParentLeft="true"/>
+    <TextView android:textSize="11sp" android:textColor="#2c3e50" android:ellipsize="end" android:id="@+id/bannerName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:maxLines="1" android:layout_toLeftOf="@+id/statusIcons" android:layout_toRightOf="@+id/networkName"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/statusIcons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+        <TextView android:textSize="11sp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/isFilled" android:background="@drawable/ad_waterfall_circle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:text="@string/AMR_text_n"/>
+        <TextView android:textSize="11sp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/isCached" android:background="@drawable/ad_waterfall_circle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:text="@string/AMR_text_c"/>
+        <TextView android:textSize="11sp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/isShown" android:background="@drawable/ad_waterfall_circle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:text="@string/AMR_text_s"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ecpmLay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/networkName">
+        <TextView android:textSize="11sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AMR_text_weight_fp"/>
+        <RelativeLayout android:layout_width="35dp" android:layout_height="wrap_content">
+            <TextView android:textSize="11sp" android:textColor="@android:color/black" android:id="@+id/FPValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <TextView android:textSize="11sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AMR_text_raw"/>
+        <RelativeLayout android:layout_width="35dp" android:layout_height="wrap_content">
+            <TextView android:textSize="11sp" android:textColor="@android:color/black" android:id="@+id/PureWeight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <TextView android:textSize="11sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AMR_text_calculated"/>
+        <RelativeLayout android:layout_width="35dp" android:layout_height="wrap_content">
+            <TextView android:textSize="11sp" android:textColor="@android:color/black" android:id="@+id/Weight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <TextView android:textSize="11sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AMR_text_only_line"/>
+    </LinearLayout>
+    <TextView android:textSize="11sp" android:textColor="@android:color/black" android:id="@+id/details" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="45sp" android:layout_below="@+id/ecpmLay"/>
+</RelativeLayout>

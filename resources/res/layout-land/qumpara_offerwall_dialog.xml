@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/QumparaOfferwallBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+    <ScrollView android:background="@color/QumparaOfferwallTransparent" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/container_root" android:background="@drawable/qumpara_offerwall_dialog_corner" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="@color/QumparaOfferwallBlack" android:id="@+id/item_top_header_bold" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp"/>
+            <ImageView android:id="@+id/icon_close" android:padding="5dp" android:layout_width="@dimen/QumparaDialogCloseIconSize" android:layout_height="@dimen/QumparaDialogCloseIconSize" android:layout_marginTop="10dp" android:layout_marginRight="5dp" android:src="@drawable/qumpara_offerwall_close_gray" android:scaleType="fitCenter" android:layout_alignParentRight="true"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/container_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/item_top_header_bold">
+                <com.qumpara.offerwall.sdk.img.FastImageView android:id="@+id/item_image" android:layout_width="300dp" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/desc_detail_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/item_image">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/QumparaDialogItemMargin">
+                        <TextView android:id="@+id/qumpara_number_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" style="@style/QumparaNumbering"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qumpara_offerwall_desc_line1" style="@style/QumparaListText"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/QumparaDialogItemMargin">
+                        <TextView android:id="@+id/qumpara_number_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2" style="@style/QumparaNumbering"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qumpara_offerwall_desc_line2" style="@style/QumparaListText"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/QumparaDialogItemMargin">
+                        <TextView android:id="@+id/qumpara_number_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3" style="@style/QumparaNumbering"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qumpara_offerwall_desc_line3" style="@style/QumparaListText"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/QumparaDialogItemMargin">
+                        <TextView android:id="@+id/qumpara_number_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4" style="@style/QumparaNumbering"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qumpara_offerwall_desc_line4" style="@style/QumparaListText"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/QumparaDialogItemMargin">
+                        <TextView android:id="@+id/qumpara_number_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5" style="@style/QumparaNumbering"/>
+                        <TextView android:textStyle="bold" android:id="@+id/item_reward_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qumpara_offerwall_desc_line5" style="@style/QumparaListText"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/item_asset_layout" android:background="@drawable/qumpara_offerwall_button_elevation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_below="@+id/container_content" android:layout_centerHorizontal="true">
+                <LinearLayout android:orientation="horizontal" android:background="@color/QumparaOfferwallButtonAmountColor" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="25dp" android:layout_marginLeft="3dp" android:layout_marginTop="2dp" android:layout_marginRight="3dp" android:layout_marginBottom="2dp">
+                    <com.qumpara.offerwall.sdk.img.FastImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/item_prize_image" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginRight="6dp" android:scaleType="fitCenter"/>
+                    <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/QumparaOfferwallWhite" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/item_prize_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10.000"/>
+                </LinearLayout>
+                <TextView android:gravity="center" android:id="@+id/win_texxt" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/qumpara_offerwall_win" style="@style/QumparaButtonWinText"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

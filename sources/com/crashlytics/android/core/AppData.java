@@ -1,0 +1,36 @@
+package com.crashlytics.android.core;
+
+import android.content.Context;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import p118io.fabric.sdk.android.p200m.p202b.C6107s;
+
+class AppData {
+    public final String apiKey;
+    public final String buildId;
+    public final String installerPackageName;
+    public final String packageName;
+    public final String versionCode;
+    public final String versionName;
+
+    AppData(String str, String str2, String str3, String str4, String str5, String str6) {
+        this.apiKey = str;
+        this.buildId = str2;
+        this.installerPackageName = str3;
+        this.packageName = str4;
+        this.versionCode = str5;
+        this.versionName = str6;
+    }
+
+    public static AppData create(Context context, C6107s sVar, String str, String str2) throws PackageManager.NameNotFoundException {
+        String packageName2 = context.getPackageName();
+        String f = sVar.mo34194f();
+        PackageInfo packageInfo = context.getPackageManager().getPackageInfo(packageName2, 0);
+        String num = Integer.toString(packageInfo.versionCode);
+        String str3 = packageInfo.versionName;
+        if (str3 == null) {
+            str3 = "0.0";
+        }
+        return new AppData(str, str2, f, packageName2, num, str3);
+    }
+}

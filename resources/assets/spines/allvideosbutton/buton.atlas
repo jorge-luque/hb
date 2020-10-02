@@ -1,0 +1,76 @@
+
+buton.png
+size: 240,536
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+button
+  rotate: false
+  xy: 1, 397
+  size: 123, 136
+  orig: 123, 136
+  offset: 0, 0
+  index: -1
+coin
+  rotate: true
+  xy: 1, 267
+  size: 129, 100
+  orig: 129, 100
+  offset: 0, 0
+  index: -1
+diamond1
+  rotate: true
+  xy: 1, 154
+  size: 112, 100
+  orig: 112, 100
+  offset: 0, 0
+  index: -1
+diamond2
+  rotate: false
+  xy: 102, 122
+  size: 109, 100
+  orig: 109, 100
+  offset: 0, 0
+  index: -1
+diamond3
+  rotate: true
+  xy: 1, 41
+  size: 112, 100
+  orig: 112, 100
+  offset: 0, 0
+  index: -1
+diamond4
+  rotate: false
+  xy: 125, 324
+  size: 112, 100
+  orig: 112, 100
+  offset: 0, 0
+  index: -1
+diamond5
+  rotate: false
+  xy: 102, 21
+  size: 109, 100
+  orig: 109, 100
+  offset: 0, 0
+  index: -1
+diamond6
+  rotate: false
+  xy: 102, 223
+  size: 112, 100
+  orig: 112, 100
+  offset: 0, 0
+  index: -1
+isik0
+  rotate: false
+  xy: 1, 1
+  size: 39, 39
+  orig: 39, 39
+  offset: 0, 0
+  index: -1
+video
+  rotate: false
+  xy: 125, 425
+  size: 110, 108
+  orig: 110, 108
+  offset: 0, 0
+  index: -1

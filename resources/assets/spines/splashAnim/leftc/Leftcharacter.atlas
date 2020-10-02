@@ -1,0 +1,258 @@
+
+Leftcharacter.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 704, 226
+  size: 91, 45
+  orig: 91, 45
+  offset: 0, 0
+  index: -1
+02
+  rotate: false
+  xy: 358, 2
+  size: 91, 67
+  orig: 91, 67
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 726, 180
+  size: 76, 44
+  orig: 76, 44
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 756, 92
+  size: 95, 39
+  orig: 95, 39
+  offset: 0, 0
+  index: -1
+05
+  rotate: false
+  xy: 797, 226
+  size: 80, 45
+  orig: 80, 45
+  offset: 0, 0
+  index: -1
+06
+  rotate: false
+  xy: 685, 91
+  size: 69, 40
+  orig: 69, 40
+  offset: 0, 0
+  index: -1
+07
+  rotate: false
+  xy: 532, 122
+  size: 73, 56
+  orig: 73, 56
+  offset: 0, 0
+  index: -1
+08
+  rotate: false
+  xy: 685, 133
+  size: 91, 45
+  orig: 91, 45
+  offset: 0, 0
+  index: -1
+L eye light
+  rotate: false
+  xy: 563, 90
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+R eye light
+  rotate: false
+  xy: 596, 90
+  size: 29, 30
+  orig: 29, 30
+  offset: 0, 0
+  index: -1
+Right collar
+  rotate: false
+  xy: 465, 86
+  size: 65, 92
+  orig: 65, 92
+  offset: 0, 0
+  index: -1
+Yelow hair 01
+  rotate: false
+  xy: 525, 3
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1
+Yelow hair 02
+  rotate: false
+  xy: 647, 219
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+Yelow hair 03
+  rotate: false
+  xy: 608, 35
+  size: 83, 53
+  orig: 83, 53
+  offset: 0, 0
+  index: -1
+Yelow hair 04
+  rotate: false
+  xy: 607, 124
+  size: 76, 54
+  orig: 76, 54
+  offset: 0, 0
+  index: -1
+crampon
+  rotate: false
+  xy: 647, 273
+  size: 173, 237
+  orig: 173, 237
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 358, 180
+  size: 287, 330
+  orig: 287, 330
+  offset: 0, 0
+  index: -1
+left B
+  rotate: false
+  xy: 693, 44
+  size: 66, 45
+  orig: 66, 45
+  offset: 0, 0
+  index: -1
+left collar
+  rotate: false
+  xy: 358, 71
+  size: 105, 107
+  orig: 105, 107
+  offset: 0, 0
+  index: -1
+left eye
+  rotate: false
+  xy: 680, 12
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+lower lip
+  rotate: false
+  xy: 703, 3
+  size: 83, 39
+  orig: 83, 39
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 647, 180
+  size: 77, 37
+  orig: 77, 37
+  offset: 0, 0
+  index: -1
+nose
+  rotate: false
+  xy: 451, 2
+  size: 72, 67
+  orig: 72, 67
+  offset: 0, 0
+  index: -1
+right B
+  rotate: false
+  xy: 532, 89
+  size: 29, 31
+  orig: 29, 31
+  offset: 0, 0
+  index: -1
+right eye
+  rotate: false
+  xy: 627, 103
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+splash
+  rotate: false
+  xy: 2, 8
+  size: 354, 502
+  orig: 354, 502
+  offset: 0, 0
+  index: -1
+sweat 01
+  rotate: false
+  xy: 657, 106
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+sweat 02
+  rotate: false
+  xy: 647, 104
+  size: 8, 18
+  orig: 8, 18
+  offset: 0, 0
+  index: -1
+sweat 03
+  rotate: false
+  xy: 465, 71
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+sweat 04
+  rotate: false
+  xy: 657, 90
+  size: 12, 14
+  orig: 12, 14
+  offset: 0, 0
+  index: -1
+sweat 05
+  rotate: false
+  xy: 672, 107
+  size: 7, 15
+  orig: 7, 15
+  offset: 0, 0
+  index: -1
+sweat 06
+  rotate: false
+  xy: 495, 78
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1
+sweat 07
+  rotate: false
+  xy: 495, 78
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1
+sweat 08
+  rotate: false
+  xy: 475, 74
+  size: 8, 10
+  orig: 8, 10
+  offset: 0, 0
+  index: -1
+sweat 09
+  rotate: false
+  xy: 485, 75
+  size: 8, 9
+  orig: 8, 9
+  offset: 0, 0
+  index: -1
+upper lip
+  rotate: false
+  xy: 608, 6
+  size: 70, 27
+  orig: 70, 27
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.webkit.WebView android:id="@+id/webView1" android:layout_width="320dp" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <ImageButton android:id="@+id/amr_ad_close" android:padding="20dp" android:visibility="invisible" android:layout_width="80dp" android:layout_height="80dp" android:src="@drawable/ad_close_timer" android:scaleType="matrix" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/AdMostButtonTransparent"/>
+    <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/amr_ad_close_text" android:padding="20dp" android:visibility="invisible" android:layout_width="80dp" android:layout_height="80dp" android:text="@string/AdMost_text_x"/>
+    <ProgressBar android:id="@+id/ad_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+</RelativeLayout>

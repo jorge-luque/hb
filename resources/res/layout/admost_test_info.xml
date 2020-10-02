@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="vertical" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/AMR_text_sdk_information" android:layout_weight="15"/>
+                <Button android:textSize="12sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@+id/button_info" android:background="#5e31c1" android:padding="3dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/AMR_text_back" android:layout_weight="3"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="@android:color/black" android:id="@+id/amrSdkV" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AMR_text_amr_sdk_version"/>
+                <TextView android:textSize="12sp" android:textColor="@android:color/black" android:id="@+id/amrVersion" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/AMR_text_deneme"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="@android:color/black" android:id="@+id/adv_id" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AMR_text_adv_id"/>
+                <TextView android:textSize="12sp" android:textColor="@android:color/black" android:id="@+id/advID" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/AMR_text_deneme"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="@android:color/black" android:id="@+id/app_id" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AMR_text_app_id"/>
+                <TextView android:textSize="12sp" android:textColor="@android:color/black" android:id="@+id/appID" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="@android:color/black" android:layout_gravity="left" android:id="@+id/network_available" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AMR_text_available_networks"/>
+            <TextView android:textSize="12sp" android:textColor="@android:color/black" android:layout_gravity="left" android:id="@+id/availablenetworks" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AMR_text_deneme"/>
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#e74c3c" android:layout_gravity="left" android:id="@+id/applovinkeyerror" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

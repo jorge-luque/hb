@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/AMRNativeBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="20sp" android:textColor="@color/AMRNativeAdSponsoredColor" android:id="@+id/ad_attribution" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/AMR_text_sponsored" android:lines="1" android:layout_centerHorizontal="true"/>
+    <ImageView android:id="@+id/ad_back" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="300dp" android:layout_marginTop="100dp" android:scaleType="centerInside" android:adjustViewBounds="true"/>
+    <ImageView android:id="@+id/ad_image" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="250dp" android:scaleType="centerInside" android:adjustViewBounds="true" android:minHeight="200dp" android:layout_centerVertical="true"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:padding="10dp" android:layout_width="250dp" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/ad_app_icon" android:layout_width="60dp" android:layout_height="60dp" android:scaleType="fitXY" android:adjustViewBounds="true"/>
+            <TextView android:textSize="22sp" android:typeface="normal" android:textStyle="bold" android:textColor="@color/AMRNativeAdTitleColor" android:id="@+id/ad_headline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_toRightOf="@+id/ad_app_icon"/>
+        </RelativeLayout>
+        <TextView android:textSize="16sp" android:textColor="@color/AMRNativeAdBodyColor" android:ellipsize="end" android:id="@+id/ad_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+    </LinearLayout>
+    <TextView android:textSize="18sp" android:textColor="@color/AMRNativeButtonColor" android:id="@+id/ad_call_to_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    <ImageView android:id="@+id/ad_privacy_icon" android:visibility="gone" android:layout_width="26dp" android:layout_height="26dp" android:src="@drawable/ad_mopub_daa" android:layout_alignParentRight="true"/>
+</RelativeLayout>

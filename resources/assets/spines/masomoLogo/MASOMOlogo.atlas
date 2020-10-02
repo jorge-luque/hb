@@ -1,0 +1,62 @@
+
+MASOMOlogo.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+A
+  rotate: false
+  xy: 258, 2
+  size: 40, 39
+  orig: 40, 39
+  offset: 0, 0
+  index: -1
+Elephant_Head
+  rotate: false
+  xy: 170, 85
+  size: 169, 141
+  orig: 169, 141
+  offset: 0, 0
+  index: -1
+Elephant_body
+  rotate: false
+  xy: 2, 82
+  size: 166, 144
+  orig: 166, 144
+  offset: 0, 0
+  index: -1
+M
+  rotate: false
+  xy: 300, 2
+  size: 40, 39
+  orig: 40, 39
+  offset: 0, 0
+  index: -1
+MASOMO
+  rotate: false
+  xy: 2, 40
+  size: 254, 40
+  orig: 254, 40
+  offset: 0, 0
+  index: -1
+O
+  rotate: false
+  xy: 258, 43
+  size: 41, 40
+  orig: 41, 40
+  offset: 0, 0
+  index: -1
+S
+  rotate: false
+  xy: 301, 43
+  size: 33, 40
+  orig: 33, 40
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 336, 67
+  size: 17, 16
+  orig: 17, 16
+  offset: 0, 0
+  index: -1

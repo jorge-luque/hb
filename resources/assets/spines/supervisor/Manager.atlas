@@ -1,0 +1,265 @@
+
+Manager.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0000
+  rotate: false
+  xy: 184, 485
+  size: 42, 75
+  orig: 42, 75
+  offset: 0, 0
+  index: -1
+ArmchairLeft
+  rotate: false
+  xy: 11, 64
+  size: 122, 207
+  orig: 122, 207
+  offset: 0, 0
+  index: -1
+ArmchairRight
+  rotate: false
+  xy: 135, 65
+  size: 123, 206
+  orig: 123, 206
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 2, 759
+  size: 284, 263
+  orig: 284, 263
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 309, 501
+  size: 68, 21
+  orig: 68, 21
+  offset: 0, 0
+  index: -1
+File
+  rotate: false
+  xy: 458, 125
+  size: 191, 176
+  orig: 191, 176
+  offset: 0, 0
+  index: -1
+Hair01
+  rotate: false
+  xy: 259, 522
+  size: 25, 38
+  orig: 25, 38
+  offset: 0, 0
+  index: -1
+Hair02
+  rotate: false
+  xy: 228, 519
+  size: 29, 41
+  orig: 29, 41
+  offset: 0, 0
+  index: -1
+Hair03
+  rotate: false
+  xy: 149, 9
+  size: 44, 54
+  orig: 44, 54
+  offset: 0, 0
+  index: -1
+Hair04
+  rotate: false
+  xy: 233, 17
+  size: 81, 46
+  orig: 81, 46
+  offset: 0, 0
+  index: -1
+Hair05
+  rotate: false
+  xy: 228, 491
+  size: 79, 26
+  orig: 79, 26
+  offset: 0, 0
+  index: -1
+Hair06
+  rotate: false
+  xy: 260, 68
+  size: 65, 17
+  orig: 65, 17
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 321, 303
+  size: 136, 180
+  orig: 136, 180
+  offset: 0, 0
+  index: -1
+HeadShadow
+  rotate: false
+  xy: 2, 5
+  size: 77, 55
+  orig: 77, 55
+  offset: 0, 0
+  index: -1
+LeftArm
+  rotate: false
+  xy: 321, 593
+  size: 141, 166
+  orig: 141, 166
+  offset: 0, 0
+  index: -1
+LeftCollar
+  rotate: false
+  xy: 399, 122
+  size: 57, 179
+  orig: 57, 179
+  offset: 0, 0
+  index: -1
+LeftEye
+  rotate: false
+  xy: 233, 3
+  size: 10, 12
+  orig: 10, 12
+  offset: 0, 0
+  index: -1
+LeftHand
+  rotate: false
+  xy: 288, 761
+  size: 127, 86
+  orig: 127, 86
+  offset: 0, 0
+  index: -1
+LeftHand03
+  rotate: false
+  xy: 286, 524
+  size: 52, 36
+  orig: 52, 36
+  offset: 0, 0
+  index: -1
+LeftHand2
+  rotate: false
+  xy: 602, 13
+  size: 102, 110
+  orig: 102, 110
+  offset: 0, 0
+  index: -1
+LeftHand3
+  rotate: false
+  xy: 327, 10
+  size: 73, 75
+  orig: 73, 75
+  offset: 0, 0
+  index: -1
+LeftWrist
+  rotate: false
+  xy: 509, 814
+  size: 171, 103
+  orig: 171, 103
+  offset: 0, 0
+  index: -1
+LeftWrist02
+  rotate: false
+  xy: 379, 487
+  size: 113, 104
+  orig: 113, 104
+  offset: 0, 0
+  index: -1
+Lighttttt
+  rotate: false
+  xy: 2, 484
+  size: 180, 273
+  orig: 180, 273
+  offset: 0, 0
+  index: -1
+PaperCorner
+  rotate: false
+  xy: 2, 62
+  size: 7, 209
+  orig: 7, 209
+  offset: 0, 0
+  index: -1
+RightArm
+  rotate: false
+  xy: 260, 87
+  size: 137, 195
+  orig: 137, 195
+  offset: 0, 0
+  index: -1
+RightCollar
+  rotate: false
+  xy: 149, 284
+  size: 170, 198
+  orig: 170, 198
+  offset: 0, 0
+  index: -1
+RightEye
+  rotate: false
+  xy: 309, 485
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+RightHand
+  rotate: false
+  xy: 464, 631
+  size: 101, 130
+  orig: 101, 130
+  offset: 0, 0
+  index: -1
+RightHand02
+  rotate: false
+  xy: 81, 2
+  size: 66, 60
+  orig: 66, 60
+  offset: 0, 0
+  index: -1
+RightHand2
+  rotate: false
+  xy: 507, 919
+  size: 183, 103
+  orig: 183, 103
+  offset: 0, 0
+  index: -1
+RightWrist
+  rotate: false
+  xy: 402, 6
+  size: 198, 114
+  orig: 198, 114
+  offset: 0, 0
+  index: -1
+armchair
+  rotate: false
+  xy: 288, 849
+  size: 217, 173
+  orig: 217, 173
+  offset: 0, 0
+  index: -1
+breast
+  rotate: false
+  xy: 184, 562
+  size: 135, 195
+  orig: 135, 195
+  offset: 0, 0
+  index: -1
+clock
+  rotate: false
+  xy: 195, 11
+  size: 36, 52
+  orig: 36, 52
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 417, 763
+  size: 90, 84
+  orig: 90, 84
+  offset: 0, 0
+  index: -1
+paper
+  rotate: false
+  xy: 2, 273
+  size: 145, 209
+  orig: 145, 209
+  offset: 0, 0
+  index: -1

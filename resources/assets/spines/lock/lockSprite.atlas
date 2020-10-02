@@ -1,0 +1,97 @@
+
+lockSprite.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Open02
+  rotate: false
+  xy: 2, 151
+  size: 94, 87
+  orig: 94, 87
+  offset: 0, 0
+  index: -1
+open_turn_1
+  rotate: false
+  xy: 100, 130
+  size: 47, 49
+  orig: 47, 49
+  offset: 0, 0
+  index: -1
+open_turn_10
+  rotate: false
+  xy: 2, 23
+  size: 47, 62
+  orig: 47, 62
+  offset: 0, 0
+  index: -1
+open_turn_11
+  rotate: false
+  xy: 98, 181
+  size: 47, 57
+  orig: 47, 57
+  offset: 0, 0
+  index: -1
+open_turn_12
+  rotate: false
+  xy: 147, 189
+  size: 47, 49
+  orig: 47, 49
+  offset: 0, 0
+  index: -1
+open_turn_2
+  rotate: false
+  xy: 51, 92
+  size: 47, 57
+  orig: 47, 57
+  offset: 0, 0
+  index: -1
+open_turn_3
+  rotate: false
+  xy: 2, 87
+  size: 47, 62
+  orig: 47, 62
+  offset: 0, 0
+  index: -1
+open_turn_4
+  rotate: false
+  xy: 51, 28
+  size: 42, 62
+  orig: 42, 62
+  offset: 0, 0
+  index: -1
+open_turn_5
+  rotate: false
+  xy: 139, 66
+  size: 35, 62
+  orig: 35, 62
+  offset: 0, 0
+  index: -1
+open_turn_6
+  rotate: false
+  xy: 176, 125
+  size: 25, 62
+  orig: 25, 62
+  offset: 0, 0
+  index: -1
+open_turn_7
+  rotate: false
+  xy: 176, 61
+  size: 25, 62
+  orig: 25, 62
+  offset: 0, 0
+  index: -1
+open_turn_8
+  rotate: false
+  xy: 139, 2
+  size: 35, 62
+  orig: 35, 62
+  offset: 0, 0
+  index: -1
+open_turn_9
+  rotate: false
+  xy: 95, 28
+  size: 42, 62
+  orig: 42, 62
+  offset: 0, 0
+  index: -1

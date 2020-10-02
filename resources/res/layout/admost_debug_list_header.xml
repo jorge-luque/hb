@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:id="@+id/priorityLevel" android:background="#5e31c1" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/AMR_text_priority_1"/>
+</LinearLayout>

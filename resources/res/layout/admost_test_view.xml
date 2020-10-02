@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:background="#f2f2f2" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center" android:id="@+id/titleAdmost" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/AMR_text_test_suite_title" android:layout_toLeftOf="@+id/button_info"/>
+                    <TextView android:textSize="10sp" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/AMR_text_panel_popup_info" android:layout_toLeftOf="@+id/button_info" android:layout_below="@+id/titleAdmost"/>
+                    <Button android:textSize="12sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@+id/button_info" android:background="#27ae60" android:padding="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AMR_text_info_big" android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#5e31c1" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/AMR_text_test_suite_zone"/>
+                <Spinner android:id="@+id/spinnerZone" android:layout_width="match_parent" android:layout_height="wrap_content" android:spinnerMode="dialog"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#5e31c1" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AMR_text_test_suite_placement"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="@android:color/darker_gray" android:ellipsize="end" android:gravity="right" android:id="@+id/textViewError" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1"/>
+                </LinearLayout>
+                <Spinner android:id="@+id/spinnerPlacement" android:layout_width="match_parent" android:layout_height="wrap_content" android:spinnerMode="dialog"/>
+                <LinearLayout android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <Button android:id="@+id/loadButton" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/AMR_text_test_suite_load" android:layout_weight="1"/>
+                    <Button android:enabled="false" android:id="@+id/showButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AMR_text_test_suite_show" android:layout_weight="1"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/bannerLayout" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

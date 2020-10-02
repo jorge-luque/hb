@@ -1,0 +1,90 @@
+
+RedCardd.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer_1
+  rotate: false
+  xy: 152, 37
+  size: 147, 216
+  orig: 147, 216
+  offset: 0, 0
+  index: -1
+Layer_10
+  rotate: false
+  xy: 301, 132
+  size: 70, 121
+  orig: 70, 121
+  offset: 0, 0
+  index: -1
+Layer_11
+  rotate: false
+  xy: 349, 15
+  size: 36, 59
+  orig: 36, 59
+  offset: 0, 0
+  index: -1
+Layer_2
+  rotate: false
+  xy: 344, 76
+  size: 47, 54
+  orig: 47, 54
+  offset: 0, 0
+  index: -1
+Layer_3
+  rotate: false
+  xy: 301, 67
+  size: 41, 63
+  orig: 41, 63
+  offset: 0, 0
+  index: -1
+Layer_4
+  rotate: false
+  xy: 95, 2
+  size: 20, 12
+  orig: 20, 12
+  offset: 0, 0
+  index: -1
+Layer_5
+  rotate: false
+  xy: 95, 16
+  size: 27, 17
+  orig: 27, 17
+  offset: 0, 0
+  index: -1
+Layer_6
+  rotate: false
+  xy: 34, 10
+  size: 31, 23
+  orig: 31, 23
+  offset: 0, 0
+  index: -1
+Layer_7
+  rotate: false
+  xy: 2, 3
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+Layer_8
+  rotate: false
+  xy: 67, 7
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+Layer_9
+  rotate: false
+  xy: 301, 9
+  size: 46, 56
+  orig: 46, 56
+  offset: 0, 0
+  index: -1
+stroke
+  rotate: false
+  xy: 2, 35
+  size: 148, 218
+  orig: 148, 218
+  offset: 0, 0
+  index: -1

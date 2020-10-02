@@ -1,0 +1,237 @@
+
+CardBox.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TeamBoxBlueImages/Ball
+  rotate: false
+  xy: 404, 95
+  size: 45, 51
+  orig: 45, 51
+  offset: 0, 0
+  index: -1
+TeamBoxBlueImages/Box
+  rotate: false
+  xy: 2, 349
+  size: 159, 148
+  orig: 159, 148
+  offset: 0, 0
+  index: -1
+TeamBoxBlueImages/BoxBack
+  rotate: false
+  xy: 162, 77
+  size: 121, 65
+  orig: 121, 65
+  offset: 0, 0
+  index: -1
+TeamBoxBlueImages/BoxBackSTROKE
+  rotate: false
+  xy: 404, 148
+  size: 129, 31
+  orig: 129, 31
+  offset: 0, 0
+  index: -1
+TeamBoxBlueImages/BoxSTROKE
+  rotate: false
+  xy: 163, 368
+  size: 130, 129
+  orig: 130, 129
+  offset: 0, 0
+  index: -1
+TeamBoxBlueImages/LeftEdge
+  rotate: false
+  xy: 390, 307
+  size: 88, 60
+  orig: 88, 60
+  offset: 0, 0
+  index: -1
+TeamBoxBlueImages/LeftEdgeSTROKE
+  rotate: false
+  xy: 383, 16
+  size: 92, 65
+  orig: 92, 65
+  offset: 0, 0
+  index: -1
+TeamBoxBlueImages/RightEdge
+  rotate: false
+  xy: 519, 387
+  size: 84, 52
+  orig: 84, 52
+  offset: 0, 0
+  index: -1
+TeamBoxBlueImages/RightEdgeSTROKE
+  rotate: false
+  xy: 517, 441
+  size: 88, 56
+  orig: 88, 56
+  offset: 0, 0
+  index: -1
+TeamBoxBlueImages/RigtBackEdge
+  rotate: false
+  xy: 506, 111
+  size: 49, 35
+  orig: 49, 35
+  offset: 0, 0
+  index: -1
+TeamBoxBlueImages/RigtBackEdgeSTROKE
+  rotate: false
+  xy: 494, 207
+  size: 53, 44
+  orig: 53, 44
+  offset: 0, 0
+  index: -1
+TeamBoxGreenImages/Ball
+  rotate: false
+  xy: 262, 11
+  size: 119, 64
+  orig: 119, 64
+  offset: 0, 0
+  index: -1
+TeamBoxGreenImages/Box
+  rotate: false
+  xy: 2, 199
+  size: 158, 148
+  orig: 158, 148
+  offset: 0, 0
+  index: -1
+TeamBoxGreenImages/BoxBack
+  rotate: false
+  xy: 285, 83
+  size: 117, 65
+  orig: 117, 65
+  offset: 0, 0
+  index: -1
+TeamBoxGreenImages/BoxBackSTROKE
+  rotate: false
+  xy: 2, 2
+  size: 124, 45
+  orig: 124, 45
+  offset: 0, 0
+  index: -1
+TeamBoxGreenImages/BoxSTROKE
+  rotate: false
+  xy: 295, 369
+  size: 131, 128
+  orig: 131, 128
+  offset: 0, 0
+  index: -1
+TeamBoxGreenImages/LeftEdge
+  rotate: false
+  xy: 428, 437
+  size: 87, 60
+  orig: 87, 60
+  offset: 0, 0
+  index: -1
+TeamBoxGreenImages/LeftEdgeSTROKE
+  rotate: false
+  xy: 296, 236
+  size: 91, 64
+  orig: 91, 64
+  offset: 0, 0
+  index: -1
+TeamBoxGreenImages/RightEdge
+  rotate: false
+  xy: 479, 253
+  size: 85, 52
+  orig: 85, 52
+  offset: 0, 0
+  index: -1
+TeamBoxGreenImages/RightEdgeSTROKE
+  rotate: false
+  xy: 404, 181
+  size: 88, 56
+  orig: 88, 56
+  offset: 0, 0
+  index: -1
+TeamBoxGreenImages/RigtBackEdge
+  rotate: false
+  xy: 535, 170
+  size: 49, 35
+  orig: 49, 35
+  offset: 0, 0
+  index: -1
+TeamBoxGreenImages/RigtBackEdgeSTROKE
+  rotate: false
+  xy: 451, 107
+  size: 53, 39
+  orig: 53, 39
+  offset: 0, 0
+  index: -1
+TeamBoxPurpleImages/Ball
+  rotate: false
+  xy: 283, 150
+  size: 119, 65
+  orig: 119, 65
+  offset: 0, 0
+  index: -1
+TeamBoxPurpleImages/Box
+  rotate: false
+  xy: 2, 49
+  size: 158, 148
+  orig: 158, 148
+  offset: 0, 0
+  index: -1
+TeamBoxPurpleImages/BoxBack
+  rotate: false
+  xy: 162, 144
+  size: 119, 71
+  orig: 119, 71
+  offset: 0, 0
+  index: -1
+TeamBoxPurpleImages/BoxBackSTROKE
+  rotate: false
+  xy: 128, 6
+  size: 132, 41
+  orig: 132, 41
+  offset: 0, 0
+  index: -1
+TeamBoxPurpleImages/BoxSTROKE
+  rotate: false
+  xy: 162, 217
+  size: 132, 130
+  orig: 132, 130
+  offset: 0, 0
+  index: -1
+TeamBoxPurpleImages/LeftEdge
+  rotate: false
+  xy: 389, 239
+  size: 88, 61
+  orig: 88, 61
+  offset: 0, 0
+  index: -1
+TeamBoxPurpleImages/LeftEdgeSTROKE
+  rotate: false
+  xy: 296, 302
+  size: 92, 65
+  orig: 92, 65
+  offset: 0, 0
+  index: -1
+TeamBoxPurpleImages/RightEdge
+  rotate: false
+  xy: 480, 325
+  size: 85, 52
+  orig: 85, 52
+  offset: 0, 0
+  index: -1
+TeamBoxPurpleImages/RightEdgeSTROKE
+  rotate: false
+  xy: 428, 379
+  size: 89, 56
+  orig: 89, 56
+  offset: 0, 0
+  index: -1
+TeamBoxPurpleImages/RigtBackEdge
+  rotate: false
+  xy: 549, 216
+  size: 49, 35
+  orig: 49, 35
+  offset: 0, 0
+  index: -1
+TeamBoxPurpleImages/RigtBackEdgeSTROKE
+  rotate: false
+  xy: 477, 66
+  size: 53, 39
+  orig: 53, 39
+  offset: 0, 0
+  index: -1

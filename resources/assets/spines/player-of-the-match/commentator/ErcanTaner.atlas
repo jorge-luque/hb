@@ -1,0 +1,146 @@
+
+ErcanTaner.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ErcanTaner/Glasss
+  rotate: false
+  xy: 2, 9
+  size: 80, 28
+  orig: 80, 28
+  offset: 0, 0
+  index: -1
+ErcanTaner/Layer_4
+  rotate: false
+  xy: 238, 25
+  size: 26, 19
+  orig: 26, 19
+  offset: 0, 0
+  index: -1
+ErcanTaner/Layer_7
+  rotate: false
+  xy: 166, 17
+  size: 34, 24
+  orig: 34, 24
+  offset: 0, 0
+  index: -1
+ErcanTaner/LeftEye
+  rotate: false
+  xy: 166, 2
+  size: 19, 13
+  orig: 19, 13
+  offset: 0, 0
+  index: -1
+ErcanTaner/LeftEyebrow
+  rotate: false
+  xy: 137, 44
+  size: 24, 11
+  orig: 24, 11
+  offset: 0, 0
+  index: -1
+ErcanTaner/RightEye
+  rotate: false
+  xy: 163, 43
+  size: 22, 12
+  orig: 22, 12
+  offset: 0, 0
+  index: -1
+ErcanTaner/RightEyebrow
+  rotate: false
+  xy: 208, 8
+  size: 25, 7
+  orig: 25, 7
+  offset: 0, 0
+  index: -1
+ErcanTaner/body
+  rotate: false
+  xy: 308, 204
+  size: 286, 306
+  orig: 286, 306
+  offset: 0, 0
+  index: -1
+ErcanTaner/hand
+  rotate: false
+  xy: 137, 57
+  size: 104, 117
+  orig: 104, 117
+  offset: 0, 0
+  index: -1
+ErcanTaner/head
+  rotate: false
+  xy: 2, 39
+  size: 133, 135
+  orig: 133, 135
+  offset: 0, 0
+  index: -1
+JohnMotson/Glass
+  rotate: false
+  xy: 84, 9
+  size: 80, 28
+  orig: 80, 28
+  offset: 0, 0
+  index: -1
+JohnMotson/Layer_4
+  rotate: false
+  xy: 238, 4
+  size: 26, 19
+  orig: 26, 19
+  offset: 0, 0
+  index: -1
+JohnMotson/Layer_7
+  rotate: false
+  xy: 202, 17
+  size: 34, 24
+  orig: 34, 24
+  offset: 0, 0
+  index: -1
+JohnMotson/LeftEye
+  rotate: false
+  xy: 187, 2
+  size: 19, 13
+  orig: 19, 13
+  offset: 0, 0
+  index: -1
+JohnMotson/LeftEyebrow
+  rotate: false
+  xy: 211, 44
+  size: 21, 11
+  orig: 21, 11
+  offset: 0, 0
+  index: -1
+JohnMotson/RightEye
+  rotate: false
+  xy: 187, 43
+  size: 22, 12
+  orig: 22, 12
+  offset: 0, 0
+  index: -1
+JohnMotson/RightEyebrow
+  rotate: false
+  xy: 234, 46
+  size: 24, 9
+  orig: 24, 9
+  offset: 0, 0
+  index: -1
+JohnMotson/body
+  rotate: false
+  xy: 2, 176
+  size: 304, 334
+  orig: 304, 334
+  offset: 0, 0
+  index: -1
+JohnMotson/hand
+  rotate: false
+  xy: 243, 60
+  size: 105, 114
+  orig: 105, 114
+  offset: 0, 0
+  index: -1
+JohnMotson/head
+  rotate: false
+  xy: 350, 54
+  size: 121, 148
+  orig: 121, 148
+  offset: 0, 0
+  index: -1
